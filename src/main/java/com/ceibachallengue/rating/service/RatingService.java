@@ -9,6 +9,5 @@ public interface RatingService {
     List<RatingDto> getAllRatingsByBookId(String bookId);
     boolean deleteOneRating(String id);
     RatingDto createRatingForBook(RatingDto ratingDto);
-    RatingDto updateOne(String id, RatingDto ratingDto) throws Exception;
 
 }

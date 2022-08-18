@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ratings-api
+  config:
+    import: optional:configserver:http://localhost:8071
+info:
+  app:
+    name: ratings microservice
+    description: Challengue rating microservice
+    version: 1.0.0
+server:
+  servlet:
+    context-path: /rating-management/api
